@@ -10,7 +10,26 @@ I've tested the code in the environment below:
 ROS Noetic  
 opencv_python>=4.0   
   
-opencv的版本有cv2.dnn就行
+opencv的版本有cv2.dnn就行  
+
+## Usage
+mkdir -p nanodet_ros/src  
+cd nanodet_ros/src  
+git clone https://github.com/stunback/ros-nanodet.git  
+catkin_make  
+
+In three terminals:  
+source devel/setup.bash  
+
+first:  
+roscore  
+
+second:  
+rosrun usb_cam usb_cam_node  
+
+third:  
+rosrun nanodet_ros ros_nanodet.py   
+
 
 ## Others
 A C++ Nanodet ros demo should be added soon  
