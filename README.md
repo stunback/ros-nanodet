@@ -1,6 +1,7 @@
 # ros-nanodet
 nanodet in ROS
-Nanodet is one of my favorite object detection algorithm. This code deploys Nanodet in ROS environment for fast detection in embedded hardware.  
+Nanodet is one of my favorite object detection algorithm.  
+This code deploys Nanodet in ROS environment for fast detection in embedded hardware.  
 Nanodet是我很喜欢的一个轻量而高效的检测算法，我把它部署到了ROS环境中以在低性能嵌入式硬件上使用  
 
 ## Requirements
